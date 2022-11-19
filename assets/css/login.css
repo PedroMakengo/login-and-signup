@@ -1,0 +1,34 @@
+:root {
+}
+
+#login {
+  display: flex;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+#login .banner--form {
+  width: 45%;
+  background-image: url(../img/bg-login.png);
+  background-size: cover;
+  background-position: center;
+
+  display: flex;
+  align-items: flex-end;
+}
+
+#login .banner--form .content--form {
+  background: rgba(255, 242, 242, 0.13);
+  mix-blend-mode: normal;
+  backdrop-filter: blur(50px);
+  /* Note: backdrop-filter has minimal browser support */
+  border-radius: 10px;
+
+  width: 90%;
+  height: 30vh;
+  margin: 2rem auto;
+  padding: 1rem;
+
+  display: flex;
+  flex-direction: column;
+}
