@@ -26,13 +26,17 @@
   border-radius: 10px;
 
   width: 90%;
-  height: 30vh;
+  height: 32vh;
   margin: 2rem auto;
   padding: 1rem;
 
   display: flex;
   justify-content: center;
   flex-direction: column;
+}
+
+#login .banner--form .content--form p {
+  color: #ffffff71;
 }
 
 #login .banner--form .content--form .title--form {
@@ -47,4 +51,40 @@
   padding: 0.6rem;
 
   font-weight: 400;
+}
+
+#login .form--login {
+  width: 55%;
+
+  padding: 2rem 4rem;
+}
+
+#login .header--form--login {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  width: 100%;
+}
+
+#login .header--form--login a {
+  color: var(--bg-primary);
+}
+
+#login .form--content {
+  width: 60%;
+  margin: 5rem auto;
+}
+
+#login .form--content .form--title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  text-align: center;
+}
+
+#login .form--content .form--title h2 {
+  font-size: 2.5rem;
+  font-weight: 600;
 }
