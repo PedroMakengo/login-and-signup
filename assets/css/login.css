@@ -1,6 +1,5 @@
 :root {
   --bg-primary: #20dc49;
-
   --line-border: #dbdbdb;
 }
 
@@ -148,5 +147,9 @@
 
 #login .form--content .form--title form input {
   margin-bottom: 1rem;
-  height: 44px;
+  height: 48px;
+  padding-inline: 1.5rem;
+
+  border: 1px solid var(--line-border);
+  border-radius: 0.5rem;
 }
