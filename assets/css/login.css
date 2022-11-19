@@ -1,5 +1,7 @@
 :root {
   --bg-primary: #20dc49;
+
+  --line-border: #dbdbdb;
 }
 
 #login {
@@ -87,4 +89,64 @@
 #login .form--content .form--title h2 {
   font-size: 2.5rem;
   font-weight: 600;
+}
+
+#login .form--content .form--title .form--social {
+  width: 80%;
+  margin-block: 1.5rem;
+
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+#login .form--content .form--title .form--social a {
+  width: 60%;
+  height: 44px;
+
+  background: white;
+  border-radius: 0.5rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+
+  font-size: 1rem;
+  color: #000;
+}
+
+#login .form--content .form--title .form--social a img {
+  width: 18px;
+}
+
+#login .form--content .form--title .form--social a:first-child {
+  border: 1px solid var(--bg-primary);
+}
+
+#login .form--content .form--title fieldset {
+  width: 100%;
+
+  border-color: var(--line-border);
+  border-width: 0.2px;
+  border-bottom: 0;
+  border-right: 0;
+  border-left: 0;
+}
+
+#login .form--content .form--title fieldset legend {
+  padding-inline: 0.5rem;
+}
+
+#login .form--content .form--title form {
+  margin-block: 1.5rem;
+  width: 100%;
+
+  display: flex;
+  flex-direction: column;
+}
+
+#login .form--content .form--title form input {
+  margin-bottom: 1rem;
+  height: 44px;
 }
