@@ -162,6 +162,8 @@
 
   color: #5a5a5a;
   font-size: 1rem;
+
+  cursor: pointer;
 }
 
 #login .form--content .form--title form .form--group {
@@ -202,4 +204,6 @@
   height: 20px;
 
   border-radius: 36.5px;
+
+  cursor: pointer;
 }
