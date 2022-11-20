@@ -193,7 +193,13 @@
   border-radius: 36.5px;
 }
 
-#login .form--radio input {
+#login .form--radio button {
   border: 1px solid #ccc;
   box-sizing: border-box;
+
+  background: #fff;
+  width: 20px;
+  height: 20px;
+
+  border-radius: 36.5px;
 }
